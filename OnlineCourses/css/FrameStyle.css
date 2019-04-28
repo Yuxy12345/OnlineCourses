@@ -1,0 +1,254 @@
+﻿html, body {
+    height: 100%;
+    margin: 0 0;
+}
+
+form {
+    height: 100%;
+}
+
+h1 {
+    font-size: 30px;
+    color: #F4F4F4;
+    float: left;
+    margin: 0 40px;
+}
+
+h2 {
+    font-size: 25px;
+    margin: 10px 20px;
+}
+
+h1:hover {
+    color: white;
+}
+
+.title {
+    height: 45px;
+    color: #9D9D9D;
+    background-color: #2B2B2B;
+    min-width: 320px;
+    text-align: center;
+}
+
+    .title ul {
+        margin: 0 10px;
+        padding-left: 0;
+        list-style-type: none;
+        float: left;
+        height: 100%;
+    }
+
+        .title ul li {
+            float: left;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            padding: 0 0;
+        }
+
+    .title div {
+        float: right;
+        height: 100%;
+        margin: 0 10px;
+        display: flex;
+        align-items: center;
+    }
+
+.topTitle {
+    float: left;
+    width: 70px;
+    left: 50%;
+    margin-left: -35px;
+}
+
+.topButton {
+    display:block;
+    border-style: none;
+    padding: 0 20px;
+    font-size: 16px;
+    height: 100%;
+    color: #9D9D9D;
+    background-color: transparent;
+    transition-property: color background-color;
+    transition-duration: 0.6s;
+}
+
+    .topButton:hover {
+        color: white;
+        background-color: #9D9D9D;
+    }
+
+.mobile {
+    display: none;
+}
+
+.activeFunc {
+    border-bottom: solid;
+    border-bottom-color: cornflowerblue;
+    background-color: #666666;
+    color: #BBBBBB;
+}
+
+.userimg {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.panel {
+    height: calc(100% - 50px);
+}
+
+#sideButton {
+    display:none;
+}
+
+.menu {
+    display:block;
+    width: 150px;
+    height: 100%;
+    float: left;
+    text-align: center;
+    background-color: #F6F6F6;
+}
+
+.hideMenu {
+    display:block;
+}
+
+.menuButton {
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    transition: background-color 0.6s;
+    border-style: none;
+}
+
+    .menuButton:hover {
+        background-color: #BBBBBB;
+    }
+
+.subMenu {
+    padding-left: 0;
+    list-style-type: none;
+    width: 100%;
+    height: 0;
+    margin: 0 0;
+}
+
+.subMenuButton {
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    transition: background-color 0.6s;
+    border-style: none;
+    background-color: white;
+}
+
+    .subMenuButton:hover {
+        background-color: #CCCCCC;
+    }
+
+.activeItem {
+    border-left: solid;
+    border-left-color: cornflowerblue;
+    background-color: #EEEEEE;
+}
+
+.content {
+    float: left;
+    width: 100%;
+    height: 100%;
+    margin:0;
+}
+
+.BuyButton {
+    margin:6px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #ff2832;
+    transition:background-color 0.4s;
+    color: white;
+}
+
+    .BuyButton:hover {
+        background-color:#f00000;
+    }
+.SaveButton {
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 5px;
+    border-color: #3386FF;
+    background-color: white;
+    color: #3386FF;
+    transition-property: background-color color;
+    transition-duration :0.4s;
+}
+    .SaveButton:hover {
+        background-color: #3386FF;
+        color:white;
+    }
+
+@media screen and (max-width:720px) {
+    h1 {
+        margin-left: 20px;
+    }
+
+    .menu {
+        display: block;
+        position: relative;
+        z-index: 1;
+    }
+    .hideMenu {
+        display:none;
+    }
+
+    #sideButton {
+        display:block;
+        width: 20px;
+        height: 50px;
+        margin: 30% 0;
+        border-style: none;
+        color:white;
+        font-weight:bold;
+        background-color:black;
+        position:absolute;
+        z-index: 0;
+    }
+
+    .mobile {
+        display: initial;
+        border-style: solid;
+        border-color: #EEEEEE;
+        border-radius: 6px;
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+        color: #EEEEEE;
+        background-color: transparent;
+        transition-property: color background-color border-color;
+        transition-duration: 0.6s;
+    }
+
+        .mobile:hover {
+            color: black;
+            background-color: #9D9D9D;
+            border-color: white;
+        }
+
+    .title ul {
+        display: none;
+    }
+
+    .content {
+        width:calc(100% - 40px);
+        position:absolute;
+        margin-left:20px;
+        z-index:0;
+    }
+
+    #Exit {
+        display: none;
+    }
+}

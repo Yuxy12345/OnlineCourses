@@ -1,0 +1,25 @@
+﻿.panel {
+}
+
+.UserImg {
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+    display: inline-block;
+    border-style: solid;
+    border-color: #507CD1;
+    border-width: 4px;
+}
+
+.UserName {
+    display:inline-block;
+    margin-right:30px;
+}
+
+.UserInfo {
+    margin: 20px;
+    display: inline-block;
+    vertical-align:top;
+    text-align:left;
+}
+

@@ -1,0 +1,58 @@
+﻿h2 {
+    margin-left: 100px;
+    font-size: 30px;
+}
+
+.TextBox {
+    width: 400px;
+    height: 45px;
+    margin:15px 20px;
+    font-size: 22px;
+    font-family: sans-serif;
+    border-style: solid;
+    border-color: #AAAAAA;
+    border-width: 1.5px;
+    border-radius: 4px;
+    box-shadow: 1px 5px 8px 1px rgba(10,10,10,.1);
+    transition-property: box-shadow border-color;
+    transition-duration: 0.4s;
+}
+
+    .TextBox:hover {
+        box-shadow: 1px 5px 8px 1px rgba(10,10,10,.15);
+        border-color: #888888;
+    }
+
+    .TextBox:focus {
+        box-shadow: 1px 5px 8px 1px rgba(10,10,10,.25);
+        border-color: #555555;
+    }
+
+.Image {
+    width: 240px;
+    box-shadow: 1px 5px 8px 1px rgba(10,10,10,.15);
+    transition: box-shadow 0.4s;
+    background-image: url('../icons/AddImg.jpg');
+}
+    .Image:hover {
+        box-shadow: 2px 6px 10px 2px rgba(10,10,10,.25);
+    }
+
+.Button {
+    width: 300px;
+    height: 40px;
+    font-size: 22px;
+    border-style: solid;
+    border-radius: 6px;
+    border-color: #3386FF;
+    background-color: white;
+    transition-property: background-color color box-shadow;
+    transition-duration: 0.4s;
+    box-shadow: 1px 5px 8px 1px rgba(24,95,255,.2);
+}
+
+    .Button:hover {
+        background-color: #3386FF;
+        color: white;
+        box-shadow: 2px 7px 10px 2px rgba(24,95,255,.4);
+    }

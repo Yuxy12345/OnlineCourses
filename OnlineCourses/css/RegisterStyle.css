@@ -1,0 +1,156 @@
+﻿.leftImg {
+    float: left;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    background-position: center;
+    animation-duration: 20s;
+    animation-name: playImg;
+    animation-iteration-count: infinite;
+}
+
+.a {
+    height: 100%;
+    text-decoration: none;
+}
+
+@keyframes playImg {
+    0% {
+        background-image: url('../img/01-1.jpg');
+    }
+
+    28% {
+        background-image: url('../img/01-1.jpg');
+    }
+
+    33% {
+        background-image: url('../img/01-3.jpg');
+    }
+
+    61% {
+        background-image: url('../img/01-3.jpg');
+    }
+
+    66% {
+        background-image: url('../img/01-4.jpg');
+    }
+
+    95% {
+        background-image: url('../img/01-4.jpg');
+    }
+
+    100% {
+        background-image: url('../img/01-1.jpg');
+    }
+}
+
+.regContents {
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+
+.regText {
+    font-size: 30px;
+}
+
+.Radio {
+    display:inline-block;
+}
+
+.regBox {
+    width: 320px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.input {
+    width: 300px;
+    height: 36px;
+    font-size: 22px;
+    font-family: sans-serif;
+    border-style: solid;
+    border-color: #AAAAAA;
+    border-width: 1px;
+    border-radius: 4px;
+    box-shadow: 1px 5px 8px 1px rgba(10,10,10,.1);
+    transition-property: box-shadow border-color;
+    transition-duration: 0.4s;
+}
+
+    .input:hover {
+        box-shadow: 1px 5px 8px 1px rgba(10,10,10,.15);
+        border-color: #888888;
+    }
+
+    .input:active {
+        box-shadow: 1px 5px 8px 1px rgba(10,10,10,.25);
+        border-color: #555555;
+    }
+
+.submit {
+    width: 300px;
+    height: 40px;
+    font-size: 22px;
+    border-style: solid;
+    border-radius: 6px;
+    border-color: #3386FF;
+    background-color: white;
+    transition-property: background-color color box-shadow;
+    transition-duration: 0.4s;
+    box-shadow: 1px 5px 8px 1px rgba(24,95,255,.2);
+}
+
+    .submit:hover {
+        background-color: #3386FF;
+        color: white;
+        box-shadow: 2px 7px 10px 2px rgba(24,95,255,.4);
+    }
+
+.Validator {
+    color: red;
+    font-size: 15px;
+}
+
+.preview {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    vertical-align: middle;
+    box-shadow: 1px 5px 8px 1px rgba(10,10,10,.1);
+    transition-property: box-shadow;
+    transition-duration: 0.4s;
+}
+    .preview:hover {
+        box-shadow: 2px 6px 9px 2px rgba(10,10,10,.3);
+    }
+
+.upload {
+    display:none;
+}
+
+@media screen and (max-width:720px) {
+    .leftImg {
+        display: none;
+    }
+
+    h1 {
+        margin-left: 20%;
+    }
+
+    .regContents {
+        float: left;
+        width: 100%;
+        height: 100%;
+    }
+
+    .submit {
+        width: 280px;
+        height: 35px;
+    }
+
+    .input {
+        width: 280px;
+        height: 35px;
+    }
+}

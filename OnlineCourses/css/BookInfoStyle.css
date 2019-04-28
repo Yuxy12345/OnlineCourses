@@ -1,0 +1,77 @@
+﻿.Contents {
+    width: 100%;
+    text-align:center;
+}
+
+.CommonTypeBooks {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.BookInfo, .CommonTypeBooks {
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    vertical-align: top;
+    padding: 20px;
+}
+
+.BookInfo {
+    width: 780px;
+}
+
+    .BookInfo > * {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+.left {
+    margin: 30px;
+    display: inline-block;
+    text-align: left;
+    width: 820px;
+}
+
+.Image {
+    width: 260px;
+    margin: 40px;
+}
+
+.CommentsItem {
+    width: 700px;
+    min-height: 160px;
+    margin: 20px auto;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: #E9E9E9;
+}
+
+    .CommentsItem > span {
+        display: inline-block;
+        margin: 10px;
+    }
+
+
+.EditComment {
+    width: 700px;
+    height: 160px;
+    margin: 20px auto;
+    text-align:left;
+}
+
+.Text {
+    width: 700px;
+    height: 120px;
+}
+
+
+.item {
+    width: 300px;
+    height: 80px;
+    margin: 10px 10px;
+    border: solid;
+    border-color: #666666;
+    padding: 10px;
+}

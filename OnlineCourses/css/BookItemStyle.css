@@ -1,0 +1,17 @@
+﻿.item {
+    width: 460px;
+    height: 160px;
+    display: inline-block;
+    margin: 8px 8px;
+    border: solid;
+    border-color: #666666;
+    border-radius: 4px;
+    padding: 10px;
+    vertical-align: top;
+    text-align:left;
+}
+
+.item > Pic {
+    width: 266px;
+    height: 150px;
+}
